@@ -19,6 +19,9 @@ public class RockPaperScissors {
 
 		System.out.println("Welcome to Rock, Paper, Scissors game");
 		while (playing) {
+			userWinCount = 0;
+			comWinCount = 0;
+			tieCount = 0;
 			System.out.println("Please choose the number of rounds to play (1 to 10)");
 			numRounds = Integer.parseInt(inputReader.nextLine());
 			if (numRounds >= 1 && numRounds <= 10) {
