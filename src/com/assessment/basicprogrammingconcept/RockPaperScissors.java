@@ -7,9 +7,9 @@ public class RockPaperScissors {
 
 	public static void main(String[] args) {
 		boolean playing = true;
-		int userWinCount = 0;
-		int comWinCount = 0;
-		int tieCount = 0;
+		int userWinCount;
+		int comWinCount;
+		int tieCount;
 		int userChoice;
 		int computerChoice;
 		int numRounds;
